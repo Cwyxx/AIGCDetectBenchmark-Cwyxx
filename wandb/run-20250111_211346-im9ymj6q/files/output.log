@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train-cwyxx-CNNSpot.py", line 74, in <module>
+    data_loader = create_dataloader_new(opt)
+  File "/data3/chenweiyan/2024-12/2025-1/code/github/AIGCDetectBenchmark-Cwyxx/data/__init__.py", line 64, in create_dataloader_new
+    dataset = read_data_new(opt)
+  File "/data3/chenweiyan/2024-12/2025-1/code/github/AIGCDetectBenchmark-Cwyxx/data/datasets.py", line 172, in __init__
+    real_img_list = [ os.path.join(os.real_root, img_name) for img_name in os.listdir(opt.real_root) ]
+  File "/data3/chenweiyan/2024-12/2025-1/code/github/AIGCDetectBenchmark-Cwyxx/data/datasets.py", line 172, in <listcomp>
+    real_img_list = [ os.path.join(os.real_root, img_name) for img_name in os.listdir(opt.real_root) ]
+AttributeError: module 'os' has no attribute 'real_root'

@@ -86,7 +86,7 @@ def create_argparser():
 def get_model(opt):
     if opt.detect_method in ["CNNSpot","LNP","LGrad","DIRE"]:
         if opt.isTrain:
-            model = resnet50(pretrained=True)
+            model = resnet50(pretrained=False)
             model.fc = nn.Linear(2048, 1)
             torch.nn.init.normal_(model.fc.weight.data, 0.0, opt.init_gain)
             return model

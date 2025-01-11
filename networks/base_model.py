@@ -13,7 +13,7 @@ class BaseModel(nn.Module):
         self.total_steps = 0
         self.isTrain = opt.isTrain
 
-        self.save_dir = os.path.join(opt.checkpoints_dir, opt.name)
+        self.save_dir = os.path.join(opt.checkpoints_dir)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     def save_networks(self, epoch):

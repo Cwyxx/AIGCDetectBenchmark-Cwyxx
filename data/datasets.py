@@ -153,29 +153,41 @@ def process_img(img,opt,imgname,target):
 
 class read_data_new():
     def __init__(self, opt):
-        self.opt = opt
-        self.root = opt.dataroot
-        real_img_list = loadpathslist(self.root,'0_real')    
-        real_label_list = [0 for _ in range(len(real_img_list))]
-        fake_img_list = loadpathslist(self.root,'1_fake')
-        fake_label_list = [1 for _ in range(len(fake_img_list))]
-        self.img = real_img_list+fake_img_list
-        self.label = real_label_list+fake_label_list
+        
+        # ================={original}================
+        # self.opt = opt
+        # self.root = opt.dataroot
+        # real_img_list = loadpathslist(self.root,'0_real')    
+        # real_label_list = [0 for _ in range(len(real_img_list))]
+        # fake_img_list = loadpathslist(self.root,'1_fake')
+        # fake_label_list = [1 for _ in range(len(fake_img_list))]
+        # self.img = real_img_list+fake_img_list
+        # self.label = real_label_list+fake_label_list
 
         # print('directory, realimg, fakeimg:', self.root, len(real_img_list), len(fake_img_list))
-
+        #================={original}================
+        
+        #================={cwyxx}================
+        self.opt = opt
+        real_img_list = [ os.path.join(opt.real_root, img_name) for img_name in os.listdir(opt.real_root) ]
+        real_label_list = [0 for _ in range(len(real_img_list))]
+        
+        fake_img_list = [ os.path.join(opt.fake_root, img_name) for img_name in os.listdir(opt.fake_root) ]
+        fake_label_list = [1 for _ in range(len(fake_img_list))]
+        
+        self.img = real_img_list + fake_img_list
+        self.label = real_label_list + fake_label_list
+        print(f"Loading {len(real_img_list)} real images and {len(fake_img_list)} fake images")
+        #================={cwyxx}================
 
     def __getitem__(self, index):
         img, target = Image.open(self.img[index]).convert('RGB'), self.label[index]
         imgname = self.img[index]
+        
         # compute scaling
         height, width = img.height, img.width
         if (not self.opt.isTrain) and (not self.opt.isVal):
             img = custom_augment(img, self.opt)
-
-        
-        
-        
         
         if self.opt.detect_method in ['CNNSpot','Gram','Steg']:
             img = processing(img,self.opt,'imagenet')

@@ -1,0 +1,19 @@
+Loading 162000 real images and 161997 fake images
+Downloading: "https://download.pytorch.org/models/resnet50-19c8e357.pth" to /home/chenweiyan/.cache/torch/hub/checkpoints/resnet50-19c8e357.pth
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 97.8M/97.8M [00:30<00:00, 3.34MB/s]
+Traceback (most recent call last):
+  File "train-cwyxx-CNNSpot.py", line 90, in <module>
+    for i, data in enumerate(data_loader):
+  File "/data3/chenweiyan/miniconda3/envs/patchcraft/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/data3/chenweiyan/miniconda3/envs/patchcraft/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data3/chenweiyan/miniconda3/envs/patchcraft/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data3/chenweiyan/miniconda3/envs/patchcraft/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data3/chenweiyan/2024-12/2025-1/code/github/AIGCDetectBenchmark-Cwyxx/data/datasets.py", line 184, in __getitem__
+    img, target = Image.open(self.img[index]).convert('RGB'), self.label[index]
+  File "/data3/chenweiyan/miniconda3/envs/patchcraft/lib/python3.8/site-packages/PIL/Image.py", line 3442, in open
+    prefix = fp.read(16)
+KeyboardInterrupt
