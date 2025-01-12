@@ -306,10 +306,12 @@ saving the model at the end of epoch 25, iters 65832
 Loading 6000 real images and 6000 fake images
 (Val @ epoch 25) acc: 0.9791666666666666; ap: 0.9979125742615942, r_acc: 0.9775, f_acc: 0.9808333333333333
 Validation accuracy increased (-inf --> 0.979167).  Saving model ...
-Epoch 26:  78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                         | 1974/2532 [06:26<01:49,  5.09it/s]
+Epoch 26:  90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                   | 2273/2532 [07:25<00:50,  5.10it/s]
 Train loss: 0.008388609625399113 at step: 66000
 saving the latest model GramNet-genimage-sdv1.4 (epoch 26, model.total_steps 66000)
 Train loss: 0.054971884936094284 at step: 66400
 Train loss: 0.03736153244972229 at step: 66800
 Train loss: 0.015743404626846313 at step: 67200
 Train loss: 0.08881187438964844 at step: 67600
+Train loss: 0.08687452971935272 at step: 68000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 26, model.total_steps 68000)

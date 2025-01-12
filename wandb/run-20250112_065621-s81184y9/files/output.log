@@ -45,5 +45,5 @@ Train loss: 0.2403288036584854 at step: 7200
 Loading 6000 real images and 6000 fake images
 (Val @ epoch 2) acc: 0.8531666666666666; ap: 0.9261790837158009, r_acc: 0.828, f_acc: 0.8783333333333333
 EarlyStopping counter: 1 out of 5
-Epoch 3:   6%|████████████                                                                                                                                                                                | 162/2532 [00:46<10:42,  3.69it/s]
+Epoch 3:  15%|████████████████████████████▏                                                                                                                                                               | 380/2532 [01:45<09:41,  3.70it/s]
 Train loss: 0.13060757517814636 at step: 7600
