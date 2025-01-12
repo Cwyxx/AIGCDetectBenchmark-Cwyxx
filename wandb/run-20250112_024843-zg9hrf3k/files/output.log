@@ -1,0 +1,7 @@
+Loading 162000 real images and 161997 fake images
+Traceback (most recent call last):
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/train-cwyxx-GramNet.py", line 96, in <module>
+    model.set_input(data)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/networks/trainer.py", line 68, in set_input
+    self.input = input[0].to(self.device)
+KeyboardInterrupt

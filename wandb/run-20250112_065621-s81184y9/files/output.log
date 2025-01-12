@@ -1,0 +1,49 @@
+Loading 162000 real images and 161997 fake images
+/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/process.py:156: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  opt.dct_mean = torch.load('./weights/auxiliary/dct_mean').permute(1,2,0).numpy()
+/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/process.py:157: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  opt.dct_var = torch.load('./weights/auxiliary/dct_var').permute(1,2,0).numpy()
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [13:49<00:00,  3.05it/s]
+Train loss: 0.47274845838546753 at step: 400
+Train loss: 0.33846911787986755 at step: 800
+Train loss: 0.4455845057964325 at step: 1200
+Train loss: 0.39897042512893677 at step: 1600
+Train loss: 0.35381144285202026 at step: 2000
+saving the latest model FreDect-genimage-sdv1.4 (epoch 0, model.total_steps 2000)
+Train loss: 0.4096022844314575 at step: 2400
+saving the model at the end of epoch 0, iters 2532
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 0) acc: 0.8580833333333333; ap: 0.9309625284098186, r_acc: 0.8898333333333334, f_acc: 0.8263333333333334
+Validation accuracy increased (-inf --> 0.858083).  Saving model ...
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:54<00:00,  3.54it/s]
+Train loss: 0.36976152658462524 at step: 2800
+Train loss: 0.25149255990982056 at step: 3200
+Train loss: 0.2626878023147583 at step: 3600
+Train loss: 0.1763385534286499 at step: 4000
+saving the latest model FreDect-genimage-sdv1.4 (epoch 1, model.total_steps 4000)
+Train loss: 0.24042540788650513 at step: 4400
+Train loss: 0.3232182562351227 at step: 4800
+/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/process.py:156: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  opt.dct_mean = torch.load('./weights/auxiliary/dct_mean').permute(1,2,0).numpy()
+/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/process.py:157: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  opt.dct_var = torch.load('./weights/auxiliary/dct_var').permute(1,2,0).numpy()
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 1) acc: 0.8921666666666667; ap: 0.9615732700500677, r_acc: 0.9358333333333333, f_acc: 0.8485
+Validation accuracy increased (0.858083 --> 0.892167).  Saving model ...
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:32<00:00,  3.65it/s]
+Train loss: 0.20966261625289917 at step: 5200
+Train loss: 0.20240218937397003 at step: 5600
+Train loss: 0.1476273387670517 at step: 6000
+saving the latest model FreDect-genimage-sdv1.4 (epoch 2, model.total_steps 6000)
+Train loss: 0.22408419847488403 at step: 6400
+Train loss: 0.16539575159549713 at step: 6800
+Train loss: 0.2403288036584854 at step: 7200
+/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/process.py:156: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  opt.dct_mean = torch.load('./weights/auxiliary/dct_mean').permute(1,2,0).numpy()
+/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/process.py:157: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  opt.dct_var = torch.load('./weights/auxiliary/dct_var').permute(1,2,0).numpy()
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 2) acc: 0.8531666666666666; ap: 0.9261790837158009, r_acc: 0.828, f_acc: 0.8783333333333333
+EarlyStopping counter: 1 out of 5
+Epoch 3:   6%|████████████                                                                                                                                                                                | 162/2532 [00:46<10:42,  3.69it/s]
+Train loss: 0.13060757517814636 at step: 7600

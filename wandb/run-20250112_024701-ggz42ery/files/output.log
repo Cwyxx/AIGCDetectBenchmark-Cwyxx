@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/train-cwyxx-GramNet.py", line 74, in <module>
+    data_loader = create_dataloader_new(opt)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/__init__.py", line 64, in create_dataloader_new
+    dataset = read_data_new(opt)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/data/datasets.py", line 172, in __init__
+    real_img_list = [ os.path.join(opt.real_root, img_name) for img_name in os.listdir(opt.real_root) ]
+FileNotFoundError: [Errno 2] No such file or directory: '/data3/xy/proj/bench/existing_dataset/genimage/stable_diffusion_v_1_4/train/0_real'

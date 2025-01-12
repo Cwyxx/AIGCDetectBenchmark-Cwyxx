@@ -1,0 +1,9 @@
+Loading 162000 real images and 161997 fake images
+Traceback (most recent call last):
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/train-cwyxx-GramNet.py", line 81, in <module>
+    model = Trainer(opt)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/networks/trainer.py", line 19, in __init__
+    self.model = get_model(opt)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/util.py", line 111, in get_model
+    raise ValueError(f"Unsupported model_type: {opt.detect_method}")
+ValueError: Unsupported model_type: GramNet

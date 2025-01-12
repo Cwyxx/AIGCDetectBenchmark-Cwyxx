@@ -67,11 +67,11 @@ def create_dataloader_new(opt):
                                               batch_size=opt.batch_size,
                                               shuffle=shuffle,
                                               collate_fn=patch_collate_test,
-                                              num_workers=int(0))
+                                              num_workers=int(8))
     else:
         data_loader = torch.utils.data.DataLoader(dataset,
                                               batch_size=opt.batch_size,
                                               shuffle=shuffle,
-                                              num_workers=int(0))
+                                              num_workers=int(8))
     return data_loader
 

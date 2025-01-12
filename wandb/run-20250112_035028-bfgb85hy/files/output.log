@@ -1,0 +1,222 @@
+Loading 162000 real images and 161997 fake images
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:34<00:00,  3.64it/s]
+Train loss: 0.4863136410713196 at step: 400
+Train loss: 0.3803291916847229 at step: 800
+Train loss: 0.4334666132926941 at step: 1200
+Train loss: 0.2502705454826355 at step: 1600
+Train loss: 0.2763166129589081 at step: 2000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 0, model.total_steps 2000)
+Train loss: 0.338015079498291 at step: 2400
+saving the model at the end of epoch 0, iters 2532
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 0) acc: 0.8726666666666667; ap: 0.9490810684682367, r_acc: 0.902, f_acc: 0.8433333333333334
+Validation accuracy increased (-inf --> 0.872667).  Saving model ...
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:36<00:00,  3.63it/s]
+Train loss: 0.28864508867263794 at step: 2800
+Train loss: 0.2956700921058655 at step: 3200
+Train loss: 0.2691816985607147 at step: 3600
+Train loss: 0.17371027171611786 at step: 4000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 1, model.total_steps 4000)
+Train loss: 0.292123407125473 at step: 4400
+Train loss: 0.27940618991851807 at step: 4800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 1) acc: 0.9081666666666667; ap: 0.9696113103333701, r_acc: 0.8891666666666667, f_acc: 0.9271666666666667
+Validation accuracy increased (0.872667 --> 0.908167).  Saving model ...
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:40<00:00,  3.61it/s]
+Train loss: 0.2685000002384186 at step: 5200
+Train loss: 0.18112578988075256 at step: 5600
+Train loss: 0.16916662454605103 at step: 6000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 2, model.total_steps 6000)
+Train loss: 0.17894989252090454 at step: 6400
+Train loss: 0.26685380935668945 at step: 6800
+Train loss: 0.1839083880186081 at step: 7200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 2) acc: 0.8380833333333333; ap: 0.9737908183847757, r_acc: 0.989, f_acc: 0.6871666666666667
+EarlyStopping counter: 1 out of 5
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:40<00:00,  3.61it/s]
+Train loss: 0.28346094489097595 at step: 7600
+Train loss: 0.19275914132595062 at step: 8000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 3, model.total_steps 8000)
+Train loss: 0.18290401995182037 at step: 8400
+Train loss: 0.26103878021240234 at step: 8800
+Train loss: 0.19901061058044434 at step: 9200
+Train loss: 0.1045650914311409 at step: 9600
+Train loss: 0.17751862108707428 at step: 10000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 3, model.total_steps 10000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 3) acc: 0.938; ap: 0.985560017505507, r_acc: 0.9245, f_acc: 0.9515
+Validation accuracy increased (0.908167 --> 0.938000).  Saving model ...
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:40<00:00,  3.61it/s]
+Train loss: 0.09566181153059006 at step: 10400
+Train loss: 0.21027448773384094 at step: 10800
+Train loss: 0.21902215480804443 at step: 11200
+Train loss: 0.18425783514976501 at step: 11600
+Train loss: 0.13417279720306396 at step: 12000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 4, model.total_steps 12000)
+Train loss: 0.1276262402534485 at step: 12400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 4) acc: 0.9483333333333334; ap: 0.988514348565199, r_acc: 0.9525, f_acc: 0.9441666666666667
+Validation accuracy increased (0.938000 --> 0.948333).  Saving model ...
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:35<00:00,  3.64it/s]
+Train loss: 0.14613959193229675 at step: 12800
+Train loss: 0.16914042830467224 at step: 13200
+Train loss: 0.07652752101421356 at step: 13600
+Train loss: 0.20139764249324799 at step: 14000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 5, model.total_steps 14000)
+Train loss: 0.1693088859319687 at step: 14400
+Train loss: 0.17441189289093018 at step: 14800
+saving the model at the end of epoch 5, iters 15192
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 5) acc: 0.8898333333333334; ap: 0.984432099219702, r_acc: 0.9873333333333333, f_acc: 0.7923333333333333
+EarlyStopping counter: 1 out of 5
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:29<00:00,  3.67it/s]
+Train loss: 0.08619458973407745 at step: 15200
+Train loss: 0.09475077688694 at step: 15600
+Train loss: 0.12044364213943481 at step: 16000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 6, model.total_steps 16000)
+Train loss: 0.11260052770376205 at step: 16400
+Train loss: 0.15383753180503845 at step: 16800
+Train loss: 0.16522443294525146 at step: 17200
+Train loss: 0.13199913501739502 at step: 17600
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 6) acc: 0.9051666666666667; ap: 0.9821015578393969, r_acc: 0.9775, f_acc: 0.8328333333333333
+EarlyStopping counter: 2 out of 5
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:35<00:00,  3.64it/s]
+Train loss: 0.10718483477830887 at step: 18000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 7, model.total_steps 18000)
+Train loss: 0.060350190848112106 at step: 18400
+Train loss: 0.16246119141578674 at step: 18800
+Train loss: 0.07239571213722229 at step: 19200
+Train loss: 0.09881628304719925 at step: 19600
+Train loss: 0.08626826107501984 at step: 20000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 7, model.total_steps 20000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 7) acc: 0.9379166666666666; ap: 0.9921330114864734, r_acc: 0.9866666666666667, f_acc: 0.8891666666666667
+EarlyStopping counter: 3 out of 5
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:35<00:00,  3.64it/s]
+Train loss: 0.11721546202898026 at step: 20400
+Train loss: 0.1572369635105133 at step: 20800
+Train loss: 0.10486254841089249 at step: 21200
+Train loss: 0.06648249924182892 at step: 21600
+Train loss: 0.12551066279411316 at step: 22000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 8, model.total_steps 22000)
+Train loss: 0.07132111489772797 at step: 22400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 8) acc: 0.949; ap: 0.9921584655382631, r_acc: 0.975, f_acc: 0.923
+EarlyStopping counter: 4 out of 5
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:30<00:00,  3.67it/s]
+Train loss: 0.11685308814048767 at step: 22800
+Train loss: 0.053159259259700775 at step: 23200
+Train loss: 0.09241348505020142 at step: 23600
+Train loss: 0.21121026575565338 at step: 24000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 9, model.total_steps 24000)
+Train loss: 0.11354103684425354 at step: 24400
+Train loss: 0.10951795428991318 at step: 24800
+Train loss: 0.1007564514875412 at step: 25200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 9) acc: 0.9525; ap: 0.9923657734084249, r_acc: 0.9741666666666666, f_acc: 0.9308333333333333
+Validation accuracy increased (0.948333 --> 0.952500).  Saving model ...
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:39<00:00,  3.62it/s]
+Train loss: 0.0731145590543747 at step: 25600
+Train loss: 0.12073658406734467 at step: 26000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 10, model.total_steps 26000)
+Train loss: 0.10145927965641022 at step: 26400
+Train loss: 0.052624061703681946 at step: 26800
+Train loss: 0.04561304301023483 at step: 27200
+Train loss: 0.07488850504159927 at step: 27600
+saving the model at the end of epoch 10, iters 27852
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 10) acc: 0.946; ap: 0.9900812149095624, r_acc: 0.9308333333333333, f_acc: 0.9611666666666666
+EarlyStopping counter: 1 out of 5
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:39<00:00,  3.62it/s]
+Train loss: 0.10864520072937012 at step: 28000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 11, model.total_steps 28000)
+Train loss: 0.14476937055587769 at step: 28400
+Train loss: 0.06601238250732422 at step: 28800
+Train loss: 0.10148902237415314 at step: 29200
+Train loss: 0.09839791059494019 at step: 29600
+Train loss: 0.09551039338111877 at step: 30000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 11, model.total_steps 30000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 11) acc: 0.9259166666666667; ap: 0.9864022209310388, r_acc: 0.9758333333333333, f_acc: 0.876
+EarlyStopping counter: 2 out of 5
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:35<00:00,  3.64it/s]
+Train loss: 0.08079361915588379 at step: 30400
+Train loss: 0.09314632415771484 at step: 30800
+Train loss: 0.15492059290409088 at step: 31200
+Train loss: 0.0972224622964859 at step: 31600
+Train loss: 0.1037713885307312 at step: 32000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 12, model.total_steps 32000)
+Train loss: 0.0904196947813034 at step: 32400
+Train loss: 0.10677900165319443 at step: 32800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 12) acc: 0.9580833333333333; ap: 0.9943283467149727, r_acc: 0.9365, f_acc: 0.9796666666666667
+Validation accuracy increased (0.952500 --> 0.958083).  Saving model ...
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:35<00:00,  3.64it/s]
+Train loss: 0.07478420436382294 at step: 33200
+Train loss: 0.06804880499839783 at step: 33600
+Train loss: 0.05455969274044037 at step: 34000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 13, model.total_steps 34000)
+Train loss: 0.08560480177402496 at step: 34400
+Train loss: 0.052033714950084686 at step: 34800
+Train loss: 0.17215357720851898 at step: 35200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 13) acc: 0.8759166666666667; ap: 0.9831040465003218, r_acc: 0.9925, f_acc: 0.7593333333333333
+EarlyStopping counter: 1 out of 5
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:34<00:00,  3.65it/s]
+Train loss: 0.09152744710445404 at step: 35600
+Train loss: 0.06475992500782013 at step: 36000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 14, model.total_steps 36000)
+Train loss: 0.06593675166368484 at step: 36400
+Train loss: 0.08695041388273239 at step: 36800
+Train loss: 0.09950066357851028 at step: 37200
+Train loss: 0.03139225021004677 at step: 37600
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 14) acc: 0.9369166666666666; ap: 0.9886636485382223, r_acc: 0.9015, f_acc: 0.9723333333333334
+EarlyStopping counter: 2 out of 5
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:42<00:00,  3.60it/s]
+Train loss: 0.11447849869728088 at step: 38000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 15, model.total_steps 38000)
+Train loss: 0.07990749180316925 at step: 38400
+Train loss: 0.10018627345561981 at step: 38800
+Train loss: 0.03973103314638138 at step: 39200
+Train loss: 0.10532831400632858 at step: 39600
+Train loss: 0.1386108547449112 at step: 40000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 15, model.total_steps 40000)
+Train loss: 0.1570538580417633 at step: 40400
+saving the model at the end of epoch 15, iters 40512
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 15) acc: 0.9606666666666667; ap: 0.9955865880772403, r_acc: 0.9841666666666666, f_acc: 0.9371666666666667
+Validation accuracy increased (0.958083 --> 0.960667).  Saving model ...
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:34<00:00,  3.65it/s]
+Train loss: 0.07741398364305496 at step: 40800
+Train loss: 0.06733661144971848 at step: 41200
+Train loss: 0.08241872489452362 at step: 41600
+Train loss: 0.058988526463508606 at step: 42000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 16, model.total_steps 42000)
+Train loss: 0.05118148773908615 at step: 42400
+Train loss: 0.04883132502436638 at step: 42800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 16) acc: 0.9514166666666667; ap: 0.9922956073740019, r_acc: 0.9701666666666666, f_acc: 0.9326666666666666
+EarlyStopping counter: 1 out of 5
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:35<00:00,  3.64it/s]
+Train loss: 0.10268623381853104 at step: 43200
+Train loss: 0.05371106043457985 at step: 43600
+Train loss: 0.06663523614406586 at step: 44000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 17, model.total_steps 44000)
+Train loss: 0.07625339180231094 at step: 44400
+Train loss: 0.08307494223117828 at step: 44800
+Train loss: 0.08922789990901947 at step: 45200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 17) acc: 0.9096666666666666; ap: 0.9900052843477156, r_acc: 0.9923333333333333, f_acc: 0.827
+EarlyStopping counter: 2 out of 5
+Epoch 18:  98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌    | 2472/2532 [11:24<00:16,  3.58it/s]
+Train loss: 0.04220703989267349 at step: 45600
+Train loss: 0.11601759493350983 at step: 46000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 18, model.total_steps 46000)
+Train loss: 0.026577837765216827 at step: 46400
+Train loss: 0.11429940164089203 at step: 46800
+Train loss: 0.07231907546520233 at step: 47200
+Train loss: 0.08221427351236343 at step: 47600
+Train loss: 0.10627137869596481 at step: 48000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 18, model.total_steps 48000)

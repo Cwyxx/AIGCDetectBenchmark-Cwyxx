@@ -17,6 +17,7 @@ from data.process import get_processing_model
 from util import set_random_seed
 
 import wandb
+from tqdm import tqdm
 
 
 """Currently assumes jpg_prob, blur_prob 0 or 1"""
@@ -45,12 +46,12 @@ if __name__ == '__main__':
     opt.dataroot = '{}/{}/'.format(opt.dataroot, opt.train_split)
     val_opt = get_val_opt()
 
-    opt.real_root = "/data3/xy/proj/bench/existing_dataset/genimage/stable_diffusion_v_1_4/train/0_real"
-    opt.fake_root = "/data3/xy/proj/bench/existing_dataset/detection_dataset_random_compress/genimage/train/stable_diffusion_v_1_4"
-    opt.checkpoints_dir = "/data3/chenweiyan/2024-12/2025-1/data/detection-method-ckpt/CNNSpot/genimage-sdv1.4-jpeg-aligned"
+    opt.real_root = "/data_center/data2/dataset/detection_dataset/genimage/stable_diffusion_v_1_4/train/0_real"
+    opt.fake_root = "/data_center/data2/dataset/detection_dataset/detection_dataset_random_compress/genimage/train/stable_diffusion_v_1_4"
+    opt.checkpoints_dir = f"/data3/chenweiyan/data/detection-method-ckpt/{opt.detect_method}/genimage-sdv1.4-jpeg-aligned"
     
-    val_opt.real_root = "/data3/xy/proj/bench/existing_dataset/genImage_test/stable_diffusion_v_1_4/0_real"
-    val_opt.fake_root = "/data3/xy/proj/bench/existing_dataset/detection_dataset_random_compress/genimage/test/stable_diffusion_v_1_4/generate"
+    val_opt.real_root = "/data_center/data2/dataset/detection_dataset/genImage_test/stable_diffusion_v_1_4/0_real"
+    val_opt.fake_root = "/data_center/data2/dataset/detection_dataset/detection_dataset_random_compress/genimage/test/stable_diffusion_v_1_4/generate"
     
     wandb.init(
     # set the wandb project where this run will be logged
@@ -58,6 +59,7 @@ if __name__ == '__main__':
 
     # track hyperparameters and run metadata
     config={
+    "detect_method": opt.detect_method,
     "learning_rate": opt.lr,
     "architecture": opt.name,
     "dataset": "genimage-sdv1.4-jpeg-aligned",
@@ -87,7 +89,7 @@ if __name__ == '__main__':
         iter_data_time = time.time()
         epoch_iter = 0
 
-        for i, data in enumerate(data_loader):
+        for i, data in tqdm(enumerate(data_loader), desc=f"Epoch {epoch}", total=len(data_loader)):
             model.total_steps += 1
             epoch_iter += opt.batch_size
 
@@ -118,7 +120,7 @@ if __name__ == '__main__':
         acc, ap, r_acc, f_acc = validate(model.model, val_opt)[:4]
         # val_writer.add_scalar('accuracy', acc, model.total_steps)
         # val_writer.add_scalar('ap', ap, model.total_steps)
-        print("(Val @ epoch {}) acc: {}; ap: {}, r_acc: {}, f_acc: {}".format(epoch, acc, ap. r_acc, f_acc))
+        print("(Val @ epoch {}) acc: {}; ap: {}, r_acc: {}, f_acc: {}".format(epoch, acc, ap, r_acc, f_acc))
         wandb.log({"val_acc": acc, "val_ap": ap, "val_r_acc": r_acc, "val_f_acc": f_acc})
 
         early_stopping(acc, model)

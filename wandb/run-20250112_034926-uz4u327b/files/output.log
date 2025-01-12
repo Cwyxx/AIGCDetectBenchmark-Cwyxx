@@ -1,0 +1,315 @@
+Loading 162000 real images and 161997 fake images
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:15<00:00,  5.10it/s]
+Train loss: 0.4021745026111603 at step: 400
+Train loss: 0.3005223274230957 at step: 800
+Train loss: 0.3254293203353882 at step: 1200
+Train loss: 0.18694233894348145 at step: 1600
+Train loss: 0.26856714487075806 at step: 2000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 0, model.total_steps 2000)
+Train loss: 0.23597408831119537 at step: 2400
+saving the model at the end of epoch 0, iters 2532
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 0) acc: 0.88675; ap: 0.9625759891987341, r_acc: 0.8423333333333334, f_acc: 0.9311666666666667
+Validation accuracy increased (-inf --> 0.886750).  Saving model ...
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:08<00:00,  5.18it/s]
+Train loss: 0.28005221486091614 at step: 2800
+Train loss: 0.18849682807922363 at step: 3200
+Train loss: 0.44494912028312683 at step: 3600
+Train loss: 0.18172167241573334 at step: 4000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 1, model.total_steps 4000)
+Train loss: 0.2397274672985077 at step: 4400
+Train loss: 0.15091091394424438 at step: 4800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 1) acc: 0.924; ap: 0.9822220255036795, r_acc: 0.8846666666666667, f_acc: 0.9633333333333334
+Validation accuracy increased (0.886750 --> 0.924000).  Saving model ...
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:09<00:00,  5.17it/s]
+Train loss: 0.21494479477405548 at step: 5200
+Train loss: 0.24749480187892914 at step: 5600
+Train loss: 0.1784399449825287 at step: 6000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 2, model.total_steps 6000)
+Train loss: 0.20170043408870697 at step: 6400
+Train loss: 0.12712596356868744 at step: 6800
+Train loss: 0.25613996386528015 at step: 7200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 2) acc: 0.78125; ap: 0.969085468227102, r_acc: 0.5708333333333333, f_acc: 0.9916666666666667
+EarlyStopping counter: 1 out of 5
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:17<00:00,  5.09it/s]
+Train loss: 0.17252613604068756 at step: 7600
+Train loss: 0.13215869665145874 at step: 8000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 3, model.total_steps 8000)
+Train loss: 0.1541006863117218 at step: 8400
+Train loss: 0.10345955193042755 at step: 8800
+Train loss: 0.17045584321022034 at step: 9200
+Train loss: 0.1571095734834671 at step: 9600
+Train loss: 0.08054041862487793 at step: 10000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 3, model.total_steps 10000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 3) acc: 0.9305833333333333; ap: 0.9866401422705537, r_acc: 0.889, f_acc: 0.9721666666666666
+Validation accuracy increased (0.924000 --> 0.930583).  Saving model ...
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:15<00:00,  5.11it/s]
+Train loss: 0.2141832709312439 at step: 10400
+Train loss: 0.1349216252565384 at step: 10800
+Train loss: 0.19657503068447113 at step: 11200
+Train loss: 0.2159426361322403 at step: 11600
+Train loss: 0.12355296313762665 at step: 12000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 4, model.total_steps 12000)
+Train loss: 0.10937589406967163 at step: 12400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 4) acc: 0.90125; ap: 0.9873248404997217, r_acc: 0.9873333333333333, f_acc: 0.8151666666666667
+EarlyStopping counter: 1 out of 5
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:15<00:00,  5.11it/s]
+Train loss: 0.1381378471851349 at step: 12800
+Train loss: 0.1415676772594452 at step: 13200
+Train loss: 0.09566272050142288 at step: 13600
+Train loss: 0.15474852919578552 at step: 14000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 5, model.total_steps 14000)
+Train loss: 0.07197535783052444 at step: 14400
+Train loss: 0.18595942854881287 at step: 14800
+saving the model at the end of epoch 5, iters 15192
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 5) acc: 0.9015; ap: 0.986242227868194, r_acc: 0.985, f_acc: 0.818
+EarlyStopping counter: 2 out of 5
+Epoch 6: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:07<00:00,  5.20it/s]
+Train loss: 0.17907321453094482 at step: 15200
+Train loss: 0.12310025095939636 at step: 15600
+Train loss: 0.14389261603355408 at step: 16000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 6, model.total_steps 16000)
+Train loss: 0.13086698949337006 at step: 16400
+Train loss: 0.09122155606746674 at step: 16800
+Train loss: 0.091734379529953 at step: 17200
+Train loss: 0.10203535854816437 at step: 17600
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 6) acc: 0.9525833333333333; ap: 0.9923178045370868, r_acc: 0.9295, f_acc: 0.9756666666666667
+Validation accuracy increased (0.930583 --> 0.952583).  Saving model ...
+Epoch 7: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:14<00:00,  5.13it/s]
+Train loss: 0.07174353301525116 at step: 18000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 7, model.total_steps 18000)
+Train loss: 0.12916556000709534 at step: 18400
+Train loss: 0.11103220283985138 at step: 18800
+Train loss: 0.09595239162445068 at step: 19200
+Train loss: 0.07442618906497955 at step: 19600
+Train loss: 0.12677422165870667 at step: 20000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 7, model.total_steps 20000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 7) acc: 0.9526666666666667; ap: 0.9917391599807779, r_acc: 0.965, f_acc: 0.9403333333333334
+EarlyStopping counter: 1 out of 5
+Epoch 8: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:11<00:00,  5.15it/s]
+Train loss: 0.07550712674856186 at step: 20400
+Train loss: 0.11493876576423645 at step: 20800
+Train loss: 0.10618667304515839 at step: 21200
+Train loss: 0.107362762093544 at step: 21600
+Train loss: 0.07341965287923813 at step: 22000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 8, model.total_steps 22000)
+Train loss: 0.13215970993041992 at step: 22400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 8) acc: 0.945; ap: 0.987999954551291, r_acc: 0.9358333333333333, f_acc: 0.9541666666666667
+EarlyStopping counter: 2 out of 5
+Epoch 9: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:14<00:00,  5.12it/s]
+Train loss: 0.11011675000190735 at step: 22800
+Train loss: 0.10096516460180283 at step: 23200
+Train loss: 0.08419503271579742 at step: 23600
+Train loss: 0.1385391801595688 at step: 24000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 9, model.total_steps 24000)
+Train loss: 0.12195101380348206 at step: 24400
+Train loss: 0.13072559237480164 at step: 24800
+Train loss: 0.11559610068798065 at step: 25200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 9) acc: 0.9479166666666666; ap: 0.9902306058440944, r_acc: 0.9203333333333333, f_acc: 0.9755
+EarlyStopping counter: 3 out of 5
+Epoch 10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:13<00:00,  5.13it/s]
+Train loss: 0.1467047482728958 at step: 25600
+Train loss: 0.04389674961566925 at step: 26000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 10, model.total_steps 26000)
+Train loss: 0.08461721241474152 at step: 26400
+Train loss: 0.07631093263626099 at step: 26800
+Train loss: 0.1140194907784462 at step: 27200
+Train loss: 0.06605811417102814 at step: 27600
+saving the model at the end of epoch 10, iters 27852
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 10) acc: 0.9563333333333334; ap: 0.9933231488955742, r_acc: 0.9368333333333333, f_acc: 0.9758333333333333
+Validation accuracy increased (0.952583 --> 0.956333).  Saving model ...
+Epoch 11: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:11<00:00,  5.15it/s]
+Train loss: 0.10170090198516846 at step: 28000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 11, model.total_steps 28000)
+Train loss: 0.11307535320520401 at step: 28400
+Train loss: 0.043751951307058334 at step: 28800
+Train loss: 0.08942793309688568 at step: 29200
+Train loss: 0.0773923322558403 at step: 29600
+Train loss: 0.12783512473106384 at step: 30000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 11, model.total_steps 30000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 11) acc: 0.95525; ap: 0.9937524975746856, r_acc: 0.9791666666666666, f_acc: 0.9313333333333333
+EarlyStopping counter: 1 out of 5
+Epoch 12: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:09<00:00,  5.18it/s]
+Train loss: 0.10234776139259338 at step: 30400
+Train loss: 0.10135617852210999 at step: 30800
+Train loss: 0.07150037586688995 at step: 31200
+Train loss: 0.07995860278606415 at step: 31600
+Train loss: 0.1657082736492157 at step: 32000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 12, model.total_steps 32000)
+Train loss: 0.10552790760993958 at step: 32400
+Train loss: 0.10563547909259796 at step: 32800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 12) acc: 0.95125; ap: 0.9926298884062226, r_acc: 0.9205, f_acc: 0.982
+EarlyStopping counter: 2 out of 5
+Epoch 13: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:16<00:00,  5.10it/s]
+Train loss: 0.10174413025379181 at step: 33200
+Train loss: 0.030875103548169136 at step: 33600
+Train loss: 0.05228091776371002 at step: 34000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 13, model.total_steps 34000)
+Train loss: 0.08620461076498032 at step: 34400
+Train loss: 0.0681413784623146 at step: 34800
+Train loss: 0.08988149464130402 at step: 35200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 13) acc: 0.966; ap: 0.9951592056265828, r_acc: 0.9555, f_acc: 0.9765
+Validation accuracy increased (0.956333 --> 0.966000).  Saving model ...
+Epoch 14: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:09<00:00,  5.17it/s]
+Train loss: 0.08263182640075684 at step: 35600
+Train loss: 0.10133770108222961 at step: 36000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 14, model.total_steps 36000)
+Train loss: 0.07533448934555054 at step: 36400
+Train loss: 0.04724224656820297 at step: 36800
+Train loss: 0.10024194419384003 at step: 37200
+Train loss: 0.06634508818387985 at step: 37600
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 14) acc: 0.9248333333333333; ap: 0.9927705552366364, r_acc: 0.9896666666666667, f_acc: 0.86
+EarlyStopping counter: 1 out of 5
+Epoch 15: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:11<00:00,  5.15it/s]
+Train loss: 0.07628915458917618 at step: 38000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 15, model.total_steps 38000)
+Train loss: 0.11973986029624939 at step: 38400
+Train loss: 0.04980198293924332 at step: 38800
+Train loss: 0.07713650166988373 at step: 39200
+Train loss: 0.08760339021682739 at step: 39600
+Train loss: 0.0404374822974205 at step: 40000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 15, model.total_steps 40000)
+Train loss: 0.08828254789113998 at step: 40400
+saving the model at the end of epoch 15, iters 40512
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 15) acc: 0.96625; ap: 0.995714635472609, r_acc: 0.949, f_acc: 0.9835
+EarlyStopping counter: 2 out of 5
+Epoch 16: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:10<00:00,  5.16it/s]
+Train loss: 0.05864578112959862 at step: 40800
+Train loss: 0.02593902125954628 at step: 41200
+Train loss: 0.09499150514602661 at step: 41600
+Train loss: 0.09435576945543289 at step: 42000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 16, model.total_steps 42000)
+Train loss: 0.026443684473633766 at step: 42400
+Train loss: 0.06492368876934052 at step: 42800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 16) acc: 0.9665833333333333; ap: 0.9950061008489046, r_acc: 0.9601666666666666, f_acc: 0.973
+EarlyStopping counter: 3 out of 5
+Epoch 17: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:11<00:00,  5.15it/s]
+Train loss: 0.04093576967716217 at step: 43200
+Train loss: 0.0770876482129097 at step: 43600
+Train loss: 0.10444867610931396 at step: 44000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 17, model.total_steps 44000)
+Train loss: 0.10495997965335846 at step: 44400
+Train loss: 0.12445887178182602 at step: 44800
+Train loss: 0.06693942099809647 at step: 45200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 17) acc: 0.9698333333333333; ap: 0.9959776425176893, r_acc: 0.9671666666666666, f_acc: 0.9725
+Validation accuracy increased (0.966000 --> 0.969833).  Saving model ...
+Epoch 18: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:10<00:00,  5.16it/s]
+Train loss: 0.033855780959129333 at step: 45600
+Train loss: 0.059181056916713715 at step: 46000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 18, model.total_steps 46000)
+Train loss: 0.08422106504440308 at step: 46400
+Train loss: 0.07231935113668442 at step: 46800
+Train loss: 0.02908359281718731 at step: 47200
+Train loss: 0.04578636586666107 at step: 47600
+Train loss: 0.03719392418861389 at step: 48000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 18, model.total_steps 48000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 18) acc: 0.968; ap: 0.9963861106648533, r_acc: 0.9526666666666667, f_acc: 0.9833333333333333
+EarlyStopping counter: 1 out of 5
+Epoch 19: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:06<00:00,  5.20it/s]
+Train loss: 0.032228849828243256 at step: 48400
+Train loss: 0.06100931018590927 at step: 48800
+Train loss: 0.04056551679968834 at step: 49200
+Train loss: 0.03446127846837044 at step: 49600
+Train loss: 0.05625269562005997 at step: 50000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 19, model.total_steps 50000)
+Train loss: 0.11440443992614746 at step: 50400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 19) acc: 0.9708333333333333; ap: 0.9965521580502386, r_acc: 0.9681666666666666, f_acc: 0.9735
+Validation accuracy increased (0.969833 --> 0.970833).  Saving model ...
+Epoch 20: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:04<00:00,  5.22it/s]
+Train loss: 0.0979352742433548 at step: 50800
+Train loss: 0.03427388519048691 at step: 51200
+Train loss: 0.04909849539399147 at step: 51600
+Train loss: 0.09595309942960739 at step: 52000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 20, model.total_steps 52000)
+Train loss: 0.09255978465080261 at step: 52400
+Train loss: 0.06574752926826477 at step: 52800
+saving the model at the end of epoch 20, iters 53172
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 20) acc: 0.9716666666666667; ap: 0.9965733975737943, r_acc: 0.975, f_acc: 0.9683333333333334
+EarlyStopping counter: 1 out of 5
+Epoch 21: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:05<00:00,  5.21it/s]
+Train loss: 0.059639282524585724 at step: 53200
+Train loss: 0.0754137933254242 at step: 53600
+Train loss: 0.07662663608789444 at step: 54000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 21, model.total_steps 54000)
+Train loss: 0.052241310477256775 at step: 54400
+Train loss: 0.08310531079769135 at step: 54800
+Train loss: 0.0705433040857315 at step: 55200
+Train loss: 0.043231550604104996 at step: 55600
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 21) acc: 0.9613333333333334; ap: 0.9964485183583538, r_acc: 0.9845, f_acc: 0.9381666666666667
+EarlyStopping counter: 2 out of 5
+Epoch 22: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:26<00:00,  5.00it/s]
+Train loss: 0.04739392548799515 at step: 56000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 22, model.total_steps 56000)
+Train loss: 0.0946788340806961 at step: 56400
+Train loss: 0.1172463595867157 at step: 56800
+Train loss: 0.07350485026836395 at step: 57200
+Train loss: 0.05046587064862251 at step: 57600
+Train loss: 0.07458915561437607 at step: 58000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 22, model.total_steps 58000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 22) acc: 0.9498333333333333; ap: 0.9953096852764625, r_acc: 0.9881666666666666, f_acc: 0.9115
+EarlyStopping counter: 3 out of 5
+Epoch 23: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:12<00:00,  5.14it/s]
+Train loss: 0.03379634767770767 at step: 58400
+Train loss: 0.033074602484703064 at step: 58800
+Train loss: 0.05738515406847 at step: 59200
+Train loss: 0.07343725115060806 at step: 59600
+Train loss: 0.10543270409107208 at step: 60000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 23, model.total_steps 60000)
+Train loss: 0.060871221125125885 at step: 60400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 23) acc: 0.9640833333333333; ap: 0.9954563655148732, r_acc: 0.9535, f_acc: 0.9746666666666667
+EarlyStopping counter: 4 out of 5
+Epoch 24: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:14<00:00,  5.12it/s]
+Train loss: 0.07725812494754791 at step: 60800
+Train loss: 0.08129474520683289 at step: 61200
+Train loss: 0.05462317913770676 at step: 61600
+Train loss: 0.10129253566265106 at step: 62000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 24, model.total_steps 62000)
+Train loss: 0.05850441753864288 at step: 62400
+Train loss: 0.056354984641075134 at step: 62800
+Train loss: 0.11024357378482819 at step: 63200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 24) acc: 0.9701666666666666; ap: 0.9965419087962778, r_acc: 0.9675, f_acc: 0.9728333333333333
+EarlyStopping counter: 5 out of 5
+Learning rate dropped by 10, continue training...
+Epoch 25: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [08:15<00:00,  5.11it/s]
+Train loss: 0.05110938102006912 at step: 63600
+Train loss: 0.04868895560503006 at step: 64000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 25, model.total_steps 64000)
+Train loss: 0.06088403984904289 at step: 64400
+Train loss: 0.015126396901905537 at step: 64800
+Train loss: 0.0616970993578434 at step: 65200
+Train loss: 0.045005328953266144 at step: 65600
+saving the model at the end of epoch 25, iters 65832
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 25) acc: 0.9791666666666666; ap: 0.9979125742615942, r_acc: 0.9775, f_acc: 0.9808333333333333
+Validation accuracy increased (-inf --> 0.979167).  Saving model ...
+Epoch 26:  78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                         | 1974/2532 [06:26<01:49,  5.09it/s]
+Train loss: 0.008388609625399113 at step: 66000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 26, model.total_steps 66000)
+Train loss: 0.054971884936094284 at step: 66400
+Train loss: 0.03736153244972229 at step: 66800
+Train loss: 0.015743404626846313 at step: 67200
+Train loss: 0.08881187438964844 at step: 67600

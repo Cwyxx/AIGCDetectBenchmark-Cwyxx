@@ -1,0 +1,7 @@
+{"time":"2025-01-12T06:56:22.221210457Z","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/wandb/run-20250112_065621-s81184y9/logs/debug-core.log"}
+{"time":"2025-01-12T06:56:22.645472796Z","level":"INFO","msg":"created new stream","id":"s81184y9"}
+{"time":"2025-01-12T06:56:22.645563865Z","level":"INFO","msg":"stream: started","id":"s81184y9"}
+{"time":"2025-01-12T06:56:22.646995612Z","level":"INFO","msg":"sender: started","stream_id":"s81184y9"}
+{"time":"2025-01-12T06:56:22.647610577Z","level":"INFO","msg":"handler: started","stream_id":"s81184y9"}
+{"time":"2025-01-12T06:56:22.647606507Z","level":"INFO","msg":"writer: Do: started","stream_id":"s81184y9"}
+{"time":"2025-01-12T06:56:23.255382Z","level":"INFO","msg":"Starting system monitor"}

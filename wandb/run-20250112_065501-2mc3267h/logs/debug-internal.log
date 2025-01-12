@@ -1,0 +1,15 @@
+{"time":"2025-01-12T06:55:02.073309977Z","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/wandb/run-20250112_065501-2mc3267h/logs/debug-core.log"}
+{"time":"2025-01-12T06:55:02.700709395Z","level":"INFO","msg":"created new stream","id":"2mc3267h"}
+{"time":"2025-01-12T06:55:02.700817354Z","level":"INFO","msg":"stream: started","id":"2mc3267h"}
+{"time":"2025-01-12T06:55:02.702837476Z","level":"INFO","msg":"handler: started","stream_id":"2mc3267h"}
+{"time":"2025-01-12T06:55:02.702867276Z","level":"INFO","msg":"writer: Do: started","stream_id":"2mc3267h"}
+{"time":"2025-01-12T06:55:02.702877615Z","level":"INFO","msg":"sender: started","stream_id":"2mc3267h"}
+{"time":"2025-01-12T06:55:03.450597649Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-12T06:55:55.441548874Z","level":"INFO","msg":"stream: closing","id":"2mc3267h"}
+{"time":"2025-01-12T06:55:55.441577974Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-12T06:55:55.442294308Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-12T06:55:56.294252404Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-12T06:55:57.147686695Z","level":"INFO","msg":"handler: closed","stream_id":"2mc3267h"}
+{"time":"2025-01-12T06:55:57.147719585Z","level":"INFO","msg":"sender: closed","stream_id":"2mc3267h"}
+{"time":"2025-01-12T06:55:57.147712755Z","level":"INFO","msg":"writer: Close: closed","stream_id":"2mc3267h"}
+{"time":"2025-01-12T06:55:57.147797364Z","level":"INFO","msg":"stream: closed","id":"2mc3267h"}

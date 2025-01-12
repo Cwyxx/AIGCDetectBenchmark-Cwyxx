@@ -1,0 +1,30 @@
+Loading 162000 real images and 161997 fake images
+Epoch 0:   1%|█▋                                                                                                                                                                                         | 44/5063 [00:58<1:51:20,  1.33s/it]
+Traceback (most recent call last):
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/train-cwyxx-CNNSpot.py", line 96, in <module>
+    model.optimize_parameters()
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/networks/trainer.py", line 85, in optimize_parameters
+    self.forward()
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/networks/trainer.py", line 79, in forward
+    self.output = self.model(self.input)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/networks/resnet.py", line 155, in forward
+    x = self.layer1(x)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/networks/resnet.py", line 86, in forward
+    out = self.bn3(out)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1924, in __getattr__
+    _buffers = self.__dict__["_buffers"]
+KeyboardInterrupt

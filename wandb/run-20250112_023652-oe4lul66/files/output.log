@@ -1,0 +1,93 @@
+Loading 162000 real images and 161997 fake images
+Epoch 0: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:45<00:00,  3.59it/s]
+Train loss: 0.4863136410713196 at step: 400
+Train loss: 0.3803291916847229 at step: 800
+Train loss: 0.4334666132926941 at step: 1200
+Train loss: 0.2502705454826355 at step: 1600
+Train loss: 0.2763166129589081 at step: 2000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 0, model.total_steps 2000)
+Train loss: 0.338015079498291 at step: 2400
+saving the model at the end of epoch 0, iters 2532
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 0) acc: 0.8726666666666667; ap: 0.9490810684682367, r_acc: 0.098, f_acc: 0.8433333333333334
+Validation accuracy increased (-inf --> 0.872667).  Saving model ...
+Epoch 1: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:25<00:00,  3.69it/s]
+Train loss: 0.28864508867263794 at step: 2800
+Train loss: 0.2956700921058655 at step: 3200
+Train loss: 0.2691816985607147 at step: 3600
+Train loss: 0.17371027171611786 at step: 4000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 1, model.total_steps 4000)
+Train loss: 0.292123407125473 at step: 4400
+Train loss: 0.27940618991851807 at step: 4800
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 1) acc: 0.9081666666666667; ap: 0.9696113103333701, r_acc: 0.11083333333333334, f_acc: 0.9271666666666667
+Validation accuracy increased (0.872667 --> 0.908167).  Saving model ...
+Epoch 2: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:25<00:00,  3.69it/s]
+Train loss: 0.2685000002384186 at step: 5200
+Train loss: 0.18112578988075256 at step: 5600
+Train loss: 0.16916662454605103 at step: 6000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 2, model.total_steps 6000)
+Train loss: 0.17894989252090454 at step: 6400
+Train loss: 0.26685380935668945 at step: 6800
+Train loss: 0.1839083880186081 at step: 7200
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 2) acc: 0.8380833333333333; ap: 0.9737908183847757, r_acc: 0.011, f_acc: 0.6871666666666667
+EarlyStopping counter: 1 out of 5
+Epoch 3: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:29<00:00,  3.67it/s]
+Train loss: 0.28346094489097595 at step: 7600
+Train loss: 0.19275914132595062 at step: 8000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 3, model.total_steps 8000)
+Train loss: 0.18290401995182037 at step: 8400
+Train loss: 0.26103878021240234 at step: 8800
+Train loss: 0.19901061058044434 at step: 9200
+Train loss: 0.1045650914311409 at step: 9600
+Train loss: 0.17751862108707428 at step: 10000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 3, model.total_steps 10000)
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 3) acc: 0.938; ap: 0.985560017505507, r_acc: 0.0755, f_acc: 0.9515
+Validation accuracy increased (0.908167 --> 0.938000).  Saving model ...
+Epoch 4: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:32<00:00,  3.66it/s]
+Train loss: 0.09566181153059006 at step: 10400
+Train loss: 0.21027448773384094 at step: 10800
+Train loss: 0.21902215480804443 at step: 11200
+Train loss: 0.18425783514976501 at step: 11600
+Train loss: 0.13417279720306396 at step: 12000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 4, model.total_steps 12000)
+Train loss: 0.1276262402534485 at step: 12400
+Loading 6000 real images and 6000 fake images
+(Val @ epoch 4) acc: 0.9483333333333334; ap: 0.988514348565199, r_acc: 0.0475, f_acc: 0.9441666666666667
+Validation accuracy increased (0.938000 --> 0.948333).  Saving model ...
+Epoch 5: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2532/2532 [11:31<00:00,  3.66it/s]
+Train loss: 0.14613959193229675 at step: 12800
+Train loss: 0.16914042830467224 at step: 13200
+Train loss: 0.07652752101421356 at step: 13600
+Train loss: 0.20139764249324799 at step: 14000
+saving the latest model CNNSpot-genimage-sdv1.4-jpeg-aligned (epoch 5, model.total_steps 14000)
+Train loss: 0.1693088859319687 at step: 14400
+Train loss: 0.17441189289093018 at step: 14800
+saving the model at the end of epoch 5, iters 15192
+Loading 6000 real images and 6000 fake images
+Traceback (most recent call last):
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/train-cwyxx-CNNSpot.py", line 119, in <module>
+    acc, ap, r_acc, f_acc = validate(model.model, val_opt)[:4]
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/validate.py", line 82, in validate
+    for img, label in data_loader:
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1448, in _next_data
+    idx, data = self._get_data()
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1412, in _get_data
+    success, data = self._try_get_data()
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1243, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/multiprocessing/queues.py", line 113, in get
+    if not self._poll(timeout):
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/data3/chenweiyan/miniconda3/envs/internvl/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

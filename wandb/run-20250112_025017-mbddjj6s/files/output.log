@@ -1,0 +1,39 @@
+Loading 162000 real images and 161997 fake images
+Epoch 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10125/10125 [18:06<00:00,  9.32it/s]
+Train loss: 0.2857693135738373 at step: 400
+Train loss: 0.29200005531311035 at step: 800
+Train loss: 0.28771698474884033 at step: 1200
+Train loss: 0.37230971455574036 at step: 1600
+Train loss: 0.340853750705719 at step: 2000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 0, model.total_steps 2000)
+Train loss: 0.28520870208740234 at step: 2400
+Train loss: 0.4278765022754669 at step: 2800
+Train loss: 0.25230342149734497 at step: 3200
+Train loss: 0.23644274473190308 at step: 3600
+Train loss: 0.3742677569389343 at step: 4000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 0, model.total_steps 4000)
+Train loss: 0.3132505416870117 at step: 4400
+Train loss: 0.15681971609592438 at step: 4800
+Train loss: 0.3440587520599365 at step: 5200
+Train loss: 0.28832027316093445 at step: 5600
+Train loss: 0.2957996129989624 at step: 6000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 0, model.total_steps 6000)
+Train loss: 0.1915423423051834 at step: 6400
+Train loss: 0.37049567699432373 at step: 6800
+Train loss: 0.23100736737251282 at step: 7200
+Train loss: 0.31145787239074707 at step: 7600
+Train loss: 0.5544705390930176 at step: 8000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 0, model.total_steps 8000)
+Train loss: 0.30054014921188354 at step: 8400
+Train loss: 0.23812495172023773 at step: 8800
+Train loss: 0.246871680021286 at step: 9200
+Train loss: 0.23278379440307617 at step: 9600
+Train loss: 0.23022520542144775 at step: 10000
+saving the latest model GramNet-genimage-sdv1.4 (epoch 0, model.total_steps 10000)
+saving the model at the end of epoch 0, iters 10125
+Loading 6000 real images and 6000 fake images
+batch number 375/375
+Traceback (most recent call last):
+  File "/data3/chenweiyan/code/github/AIGCDetectBenchmark-Cwyxx/train-cwyxx-GramNet.py", line 124, in <module>
+    print("(Val @ epoch {}) acc: {}; ap: {}, r_acc: {}, f_acc: {}".format(epoch, acc, ap. r_acc, f_acc))
+AttributeError: 'numpy.float64' object has no attribute 'r_acc'

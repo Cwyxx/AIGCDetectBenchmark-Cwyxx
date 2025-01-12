@@ -19,7 +19,7 @@ class TrainOptions():
         parser.add_argument('--jpg_method', default='cv2,pil')
         parser.add_argument('--jpg_qual', default='30,100')
 
-        parser.add_argument('--batch_size', type=int, default=64, help='input batch size')
+        parser.add_argument('--batch_size', type=int, default=128, help='input batch size')
         parser.add_argument('--loadSize', type=int, default=256, help='scale images to this size')
         parser.add_argument('--CropSize', type=int, default=224, help='scale images to this size')
         parser.add_argument('--no_crop', action='store_true')
